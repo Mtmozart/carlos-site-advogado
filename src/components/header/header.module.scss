@@ -1,14 +1,15 @@
 @import '../../styles/variables.scss';
 .section__top__container {
   margin: 0;
-  padding: 0 20px 0 20px;
+  padding: 0;
   width: 100%;
-  height: 150px;
+  height: 180px;
 }
 
-.section__top__container {
+.section__header__navigation{
 background-color: $primary-color;
 display: grid;
+height: 148px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr;
 }

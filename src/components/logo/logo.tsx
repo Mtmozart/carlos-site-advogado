@@ -1,12 +1,12 @@
-import Image from 'next/image';
-
+import styles from './logo.module.scss';
 export default function Logo() {
   return (
-    <Image
-      src="/assets/logo-to-site.png"
-      width={200}
-      height={200}
-      alt="Carlos Pontes Advocacia e Consultoria"
-    />
+    <section className={styles.image__container}>
+      <img
+        src="/assets/logo.png"
+        alt="Carlos Pontes Advocacia e Consultoria"
+        className={styles.logo}
+      />
+    </section>
   );
 }

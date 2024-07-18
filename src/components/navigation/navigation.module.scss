@@ -1,17 +1,26 @@
 @import '../../styles/variables.scss';
 
 .navigation__container{
-bottom: 0;
-width: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
 }
 .navigation__list {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: 1fr;
-gap: 1;
+gap: 20px; 
+padding-top: 15%;
+margin-right: 0;
 }
 
-.navigation__list__item{
- text-decoration: none;
- font-size: $font-size-medium;
+.navigation__list__item {
+  text-decoration: none;
+  font-size: $font-size-small;
+  color: $white; 
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }

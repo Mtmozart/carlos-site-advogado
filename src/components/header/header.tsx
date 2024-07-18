@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <nav className={styles.section__top__container}>
       <TopHeader />
-      <section className={styles.section__top__container}>
+      <section className={styles.section__header__navigation}>
         <Logo />
         <Navigation />
       </section>
