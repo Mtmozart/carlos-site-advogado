@@ -1,12 +1,9 @@
-import { Header } from '@/components/header/header';
+import { Cover } from '@/components/cover/cover';
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main>
-        <h1>hello world</h1>
-      </main>
+      <Cover />
     </>
   );
 }
