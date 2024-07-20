@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+.cover__container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  max-height: 600px;
+  background-image: url('/assets/capa-cover.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cover__content {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  
+  & h1 {
+    padding: 0;
+    margin: 0;
+    font-size: $font-size-medium;
+    color: $secondary-color;
+  }
+  & h2 {
+    padding: 15px;
+    margin: 0;
+    font-size: $font-size-xsmall;
+    color: $white;
+    
+  }
+
+  .call_to_action{
+    width: 40%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: $font-size-xsmall;
+    background-color: $secondary-color;
+
+    &:hover {
+      background-color: $tertiary-color;
+      color: $white;
+    }
+    
+  }
+}
