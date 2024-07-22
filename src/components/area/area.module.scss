@@ -1,0 +1,64 @@
+@import '../../styles/variables.scss';
+.area__container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  background-image: url('/assets/area-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  p {
+    font-size: $font-size-small;
+    color: $white;
+  }
+}
+
+.title__area_of_expansive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-size: $font-size-medium;
+    color: $secondary-color;
+  }
+}
+
+.area_of_expansive {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 20px; 
+
+  article {
+    text-align: center; 
+    max-width:500px; 
+  }
+
+  h5 {
+    margin: 10px;
+    padding: 0;
+    font-size: $font-size-small;
+    color: $white;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}

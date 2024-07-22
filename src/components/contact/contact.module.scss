@@ -1,0 +1,92 @@
+@import '../../styles/variables.scss';
+.contact__container {
+  margin: 0;
+  width: 100%;
+  min-height: 500px; 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contact__container h4, 
+.contact__container h5 {
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-medium; 
+}
+
+.contact__container span {
+  font-size: $font-size-small; 
+}
+
+.contact__container__contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.contact__container__address {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact__form label {
+  font-size: $font-size-small; 
+  color: $primary-color; 
+  margin-bottom: 5px;
+}
+
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid $secondary-color;
+  border-radius: 4px; 
+  font-size: $font-size-small; 
+  box-sizing: border-box; 
+}
+
+
+.contact__form textarea {
+  resize: vertical; 
+  min-height: 100px; 
+}
+
+
+.contact__form button {
+  padding: 10px 15px; 
+  background-color: #cc9933; 
+  color: #fff; 
+  border: none;
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: $font-size-xsmall; 
+  transition: background-color 0.3s; 
+}
+
+
+.contact__form button:hover {
+  background-color: $tertiary-color;
+}
