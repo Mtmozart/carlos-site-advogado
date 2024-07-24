@@ -4,14 +4,27 @@
   padding: 0;
   width: 100%;
   height: 180px;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .section__header__navigation{
 background-color: $primary-color;
+box-sizing: border-box;
 display: grid;
 height: 148px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr;
 text-align: center;
 }
+//mobile
+@media (max-width: $mobile) {
+  .section__header__navigation {
+    height: 140px;
+    grid-template-columns: 1fr;
+  }
+}
+//@media (min-width: $mobile) {
+ // .section__top__header  a{
+ //  font-size: $font-size-xsmall * 0.75;
+ // }
+//} -->

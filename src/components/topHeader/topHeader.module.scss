@@ -1,8 +1,5 @@
 @import '../../styles/variables.scss';
 .section__top__header {
-  position: fixed;
-  top: 0;
-  left: 0;
   margin: 0;
   padding: 0;
   display: grid;
@@ -16,11 +13,30 @@
   border-bottom: 1px solid $secondary-color;
 }
 
-// Estilize os parágrafos dentro da seção
-.section__top__header p {
+.section__top__header a {
   margin: 0;
   padding: 5px;
   height: 100%;
   font-size: $font-size-xsmall;
   text-align: center;
+  color: $secondary-color;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+      color: $white;
+      text-decoration:underline;
+  }
+ 
+}
+
+@media (max-width: $mobile) {
+  .section__top__header {
+   display: none;
+  }
+}
+@media (min-width: $mobile) {
+  .section__top__header  a{
+   font-size: $font-size-xsmall * 0.75;
+  }
 }

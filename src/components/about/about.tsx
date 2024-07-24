@@ -18,7 +18,7 @@ export const About = () => {
         </p>
       </article>
       <article className={styles.about__image}>
-        <img src="/assets/saul-goodman.png" alt="Carlos"></img>
+        <img src="/assets/foto-site.jpg" alt="Carlos"></img>
       </article>
     </section>
   );
