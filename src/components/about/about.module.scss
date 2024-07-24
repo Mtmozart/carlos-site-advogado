@@ -1,6 +1,8 @@
+// Importar variáveis
 @import '../../styles/variables.scss';
 
 .about__container {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   display: flex;
@@ -28,6 +30,7 @@
   }
 
   p {
+    text-align: justify;
     padding: 0;
     margin: 10px 20px;
     font-size: $font-size-xsmall;
@@ -45,7 +48,49 @@
 }
 
 .about__image img {
-  width: 45%;
-  height: 70%;
+  width: 40%;
+  height: 80%;
   border-radius: 25px;
+}
+
+// Estilos para tablet
+@media (max-width: $desktop) {
+  // Adicione quaisquer ajustes específicos para tablets aqui
+}
+
+// Estilos para mobile
+@media (max-width: $mobile) {
+  .about__container {
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about__text {
+    width: 100%;
+    height: 48%;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      font-size: $font-size-xsmall;
+    }
+
+    p {
+      font-size: $font-size-xsmall * 0.75;
+    }
+  }
+
+  .about__image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 48%;
+  }
+
+  .about__image img {
+    width: 65%;
+    height: 100%; 
+  }
 }
