@@ -16,6 +16,8 @@
   background-repeat: no-repeat;
 
   p {
+    margin: 15px;
+    text-align: justify;
     font-size: $font-size-small;
     color: $white;
   }
@@ -60,5 +62,37 @@
   p {
     margin: 0;
     padding: 0;
+  }
+}
+//tablete
+@media (max-width: $desktop) {
+  .area__container{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .title__area_of_expansive {
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+  
+ .area_of_expansive p{
+  padding: 15px 15px 5px 15px;
+  font-size: $font-size-xsmall * 0.80;
+ }
+}
+
+// Estilos para mobile
+@media (max-width: $mobile) {
+  .area__container {
+    box-sizing: border-box;
+    align-items: center;
+    height: 800px;
+  }
+  .area_of_expansive {
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
   }
 }

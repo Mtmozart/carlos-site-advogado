@@ -28,13 +28,13 @@
   flex-direction: column;
   padding: 0;
   margin: 0;
-  width: 50%;
+  width: 48%;
 }
 
 .contact__container__address {
   padding: 0;
   margin: 0;
-  width: 50%;
+  width: 48%;
 }
 
 .contact__form {
@@ -89,4 +89,28 @@
 
 .contact__form button:hover {
   background-color: $tertiary-color;
+}
+
+//mobile
+@media (min-width: $desktop) {
+  .contact__container {
+    flex-direction: column;
+  }
+  .contact__container__contact {
+      width: 100%;
+  }
+
+}
+
+//mobile
+@media (max-width: $mobile) {
+  .contact__container {
+    flex-direction: column;
+  }
+  .contact__container__address {
+    width: 100%;
+  }
+    .contact__form{
+    width: 100%;
+  }
 }

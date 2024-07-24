@@ -55,7 +55,10 @@
 
 // Estilos para tablet
 @media (max-width: $desktop) {
-  // Adicione quaisquer ajustes específicos para tablets aqui
+  .about__image img {
+    width: 65%;
+    height: 80%; 
+  }
 }
 
 // Estilos para mobile
