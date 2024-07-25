@@ -25,8 +25,8 @@ export const Contact = () => {
       </div>
       <div className={styles.contact__container__address}>
         <h4>Endereço</h4>
-        <span>Av. Lauro Sodré, 1903, Pedrinhas, Porto Velho - RO.</span>
-        <h5>Telefone e whatsapp:</h5>
+        <span>Av. Lauro Sodré, 1903, Pedrinhas, Porto Velho-RO.</span>
+        <h4>Telefone e whatsapp:</h4>
         <span> (69) 99348-8222</span>
       </div>
     </section>

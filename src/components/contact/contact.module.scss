@@ -11,8 +11,7 @@
   padding: 20px;
 }
 
-.contact__container h4, 
-.contact__container h5 {
+.contact__container h4 {
   margin: 0;
   padding: 0;
   font-size: $font-size-medium; 
@@ -32,8 +31,7 @@
 }
 
 .contact__container__address {
-  padding: 0;
-  margin: 0;
+  
   width: 48%;
 }
 
@@ -91,26 +89,61 @@
   background-color: $tertiary-color;
 }
 
-//mobile
-@media (min-width: $desktop) {
+//tablet
+@media (max-width: $desktop) {
   .contact__container {
     flex-direction: column;
   }
   .contact__container__contact {
       width: 100%;
   }
+  .contact__container__address {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    h4 {
+      display: block;
+      width: 100%;
+    }
+    span {
+      width: 100%;
+      display: block;
+    }
+  }
 
 }
 
-//mobile
+// Estilos para mobile
 @media (max-width: $mobile) {
   .contact__container {
-    flex-direction: column;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 1rem;
   }
+
   .contact__container__address {
+    display: block;
     width: 100%;
+    margin-bottom: 1rem;
+
+    h4 {
+      font-size: $font-size-medium * 0.65;
+      margin: 0; 
+      padding: 15px 0 0 0; 
+    }
+
+    span {
+      font-size: $font-size-xsmall;
+      padding: 0;
+      margin: 0;
+    }
   }
-    .contact__form{
-    width: 100%;
+
+  .contact__form {
+    width: 80%; 
+    padding: 1rem; 
   }
 }
