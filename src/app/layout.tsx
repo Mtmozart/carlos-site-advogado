@@ -8,9 +8,9 @@ import '../styles/global.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Carlos Polgar advocacia',
+  title: 'Carlos Pontes advocacia',
   description:
-    'Carlos Polgar é um renomado advogado especializado em heteroidentificação e direito do trabalho, trazendo vasta experiência e conhecimento para suas áreas de atuação'
+    'Carlos Pontes é um renomado advogado especializado em heteroidentificação e direito do trabalho, trazendo vasta experiência e conhecimento para suas áreas de atuação'
 };
 
 export default function RootLayout({
