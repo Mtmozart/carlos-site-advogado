@@ -10,7 +10,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Carlos Pontes advocacia',
   description:
-    'Carlos Pontes é um renomado advogado especializado em heteroidentificação e direito do trabalho, trazendo vasta experiência e conhecimento para suas áreas de atuação'
+    'Carlos Pontes é um renomado advogado especializado em heteroidentificação e direito do trabalho, trazendo vasta experiência e conhecimento para suas áreas de atuação',
+  icons: {
+    icon: ['favicon.ico']
+  }
 };
 
 export default function RootLayout({
@@ -21,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>
+        <link rel="icon" href="/assets/favicon.ico" />
         <Header />
         <main>{children}</main>
         <Footer />

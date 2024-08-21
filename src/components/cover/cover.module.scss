@@ -46,26 +46,44 @@
 
   .call_to_action {
     width: 40%;
-    height: 30px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: $font-size-xsmall;
+    font-size: $font-size-small;
+    font-weight: 500;
     background-color: $secondary-color;
+    color: $primary-color; 
+    text-decoration: none;
 
+    
     &:hover {
       background-color: $tertiary-color;
       color: $white;
       transition: background-color 0.5s ease-in-out;
     }
+    svg {
+      margin-left: 8px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media(max-width: 1615px){
+  .cover__content{
+    width: 60%;
   }
 }
 
 // Tablet e maior
 @media (max-width: $desktop) {
+  .cover__content{
+    width: 60%;
+  }
+
   .cover__content h1 {
     text-align: center;
     font-size: $font-size-medium * 0.85;
@@ -94,6 +112,16 @@
 
   .cover__content p {  
     font-size: $font-size-small * 0.80; 
+  }
+}
+
+@media (max-width: $mobile-small){
+  .cover__content{
+    width: 95%;
+    height: 100%;
+  }
+  .cover__container {
+    height: 750px;
   }
 }
 

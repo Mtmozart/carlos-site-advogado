@@ -13,20 +13,18 @@ export const Area = () => {
           <FaBalanceScale style={{ color: '#cc9933' }} />
           <h5>Direito trabalhista</h5>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, id
-            commodi sed sequi dolores veniam, officiis distinctio illo ea
-            nostrum tenetur, facere ad. Ducimus quos officiis cumque numquam
-            fugiat soluta.
+            Foco na proteção dos direitos dos trabalhadores, desde a contratação
+            até a rescisão, incluindo questões de salários, horas extras,
+            férias, e outros direitos trabalhistas.
           </p>
         </article>
         <article>
           <FaGavel style={{ color: '#cc9933' }} />
           <h5> Direito civil</h5>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, id
-            commodi sed sequi dolores veniam, officiis distinctio illo ea
-            nostrum tenetur, facere ad. Ducimus quos officiis cumque numquam
-            fugiat soluta.
+            Abrangência de questões como contratos, responsabilidade civil,
+            direito de família e sucessões, sempre com o objetivo de garantir a
+            justiça e a proteção dos direitos individuais.
           </p>
         </article>
       </div>
