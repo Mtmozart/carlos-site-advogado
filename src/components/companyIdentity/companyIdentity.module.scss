@@ -17,7 +17,6 @@
   padding: 0;
   margin: 0;
   text-align: center;
-  max-height: 300px;
   width: 33%; 
   box-sizing: border-box;
 
@@ -29,8 +28,30 @@
 
   p {
     text-align: justify;
-    font-size: $font-size-small;
+    font-size: $font-size-small * 0.93;
     padding: 20px;
+  }
+}
+@media (max-width: $desktop-x) {
+  .companyIdentity__container {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-direction: row; 
+  }
+
+  .companyIdentity__container__item {
+    width: 30%;
+    box-sizing: border-box;
+
+    h4 {
+      font-size: $font-size-medium * 0.85;
+    }
+
+    p {
+      font-size: $font-size-xsmall * 0.85;
+      padding: 5px;
+    }
   }
 }
 

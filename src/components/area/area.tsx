@@ -4,7 +4,7 @@ import { FaGavel } from 'react-icons/fa';
 
 export const Area = () => {
   return (
-    <section className={styles.area__container}>
+    <section id="area" className={styles.area__container}>
       <div className={styles.title__area_of_expansive}>
         <h3>Áreas de atuação</h3>
       </div>

@@ -3,7 +3,7 @@ import { FaBullseye, FaEye, FaHandshake } from 'react-icons/fa';
 
 export const CompanyIdentity = () => {
   return (
-    <section className={styles.companyIdentity__container}>
+    <section id="identity" className={styles.companyIdentity__container}>
       <div className={styles.companyIdentity__container__item}>
         <FaBullseye />
         <h4>Misão</h4>

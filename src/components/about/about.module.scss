@@ -62,8 +62,16 @@
 
 // Estilos para tablet
 @media (max-width: $desktop) {
+
   .about__container{    
     height: 850px;
+    h2 {
+     
+      font-size: $font-size-medium * 0.75;
+    } 
+    p {
+      font-size: $font-size-small * 0.85;
+    }
   }
   .about__image img {   
       width: 350px;

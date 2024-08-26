@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './navigation.module.scss';
+
 export const Navigation = () => {
   return (
     <nav className={styles.navigation__container}>
@@ -7,13 +8,16 @@ export const Navigation = () => {
         <Link href="/" className={styles.navigation__list__item}>
           Home
         </Link>
-        <Link href="/about" className={styles.navigation__list__item}>
+        <Link href="/#about" className={styles.navigation__list__item}>
           Sobre
         </Link>
-        <Link href="/blog" className={styles.navigation__list__item}>
-          Blog
+        <Link href="/#area" className={styles.navigation__list__item}>
+          Atuação
         </Link>
-        <Link href="/contact" className={styles.navigation__list__item}>
+        <Link href="/#identity" className={styles.navigation__list__item}>
+          Identidade
+        </Link>
+        <Link href="/#contact" className={styles.navigation__list__item}>
           Contato
         </Link>
       </ul>
