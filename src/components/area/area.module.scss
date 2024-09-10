@@ -2,9 +2,9 @@
 
 .area__container {
   margin: 0;
-  padding: 0;
+  padding: 40px;
   width: 100%;
-  height: 500px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -86,11 +86,7 @@
 
 // Estilos para mobile
 @media (max-width: $mobile) {
-  .area__container { 
-    height: 950px;
-  }
-
-  .area_of_expansive {
+   .area_of_expansive {
     padding: 0;
     margin: 0;
     flex-direction: column;
@@ -100,8 +96,5 @@
 @media (max-width: $mobile-small) {
   .area_of_expansive h5 {
     margin-bottom: 0;
-  }
-  .area__container {
-    height: 1000px;
   }
 }

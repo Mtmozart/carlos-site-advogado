@@ -100,18 +100,18 @@
 // Mobile
 @media (max-width: $mobile) {
   .cover__container {
-    height: 400px;
+    height: 600px;
   }
 
   .cover__content {
     width: 80%;
   }
   .cover__content h1 {
-    font-size: $font-size-medium * 0.60;
+    font-size: $font-size-medium * 0.80;
   }
 
   .cover__content p {  
-    font-size: $font-size-small * 0.80; 
+    font-size: $font-size-small; 
   }
 }
 
