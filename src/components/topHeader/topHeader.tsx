@@ -13,7 +13,7 @@ export const TopHeader = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <FaInstagram size={17} />
+          <FaInstagram size={16} />
           @advcarlospontes
         </a>
       </div>
